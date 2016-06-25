@@ -14,7 +14,7 @@ De la même façon, laissez "couler" le texte. N’essayez pas de forcer des ret
 
 ## Limitez les polices…
 
-Attention à ne pas faire dans l’excentricité. Certes, aujourd’hui la propriété `@font-fac` permet de faire bien des choses pratiques, mais il y a mille et unes raisons (ou presque) pour qu‘une typo ne se charge pas. Réservez donc les polices "excentriques" à des textes particuliers, tels que les titres, le menu de navigation ou des encarts occasionnels. Pour ce qui est du contenu textuel, restez-en aux polices dites "web safe" dont voici une liste (pas forcément exhaustive).
+Attention à ne pas faire dans l’excentricité. Certes, aujourd’hui la propriété `@font-fac` permet de faire bien des choses pratiques, mais il y a mille et unes raisons (ou presque) pour qu’une typo ne se charge pas. Réservez donc les polices "excentriques" à des textes particuliers, tels que les titres, le menu de navigation ou des encarts occasionnels. Pour ce qui est du contenu textuel, restez-en aux polices dites "web safe" dont voici une liste (pas forcément exhaustive).
 
 Vous pouvez bien sûr adapter en fonction de votre cible : pour un site à destination des utilisateurs de Windows Phone (par exemple), ou pour une majorité d’utilisateurs Windows, vous pouvez opter pour **Segoe UI**, qui sera très raccord avec le reste de l’environnement de travail. À l’inverse, pour le site de votre application OSX ou iOS, l’emploi de **Helvetica Neue** sera tout à fait approprié et safe puisque présente sur tous les systèmes Apple (du moins, ceux relativement récents).
 

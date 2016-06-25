@@ -14,7 +14,7 @@ html {
 }
 ```
 
-Cela permet à la propriété `width` de prendre en compte les `padding` et `border` d‘un élément, et évite donc les [dépassements inutiles](http://codepen.io/EmmanuelBeziat/pen/ryhaC), les calculs préalables ou à la volée…
+Cela permet à la propriété `width` de prendre en compte les `padding` et `border` d’un élément, et évite donc les [dépassements inutiles](http://codepen.io/EmmanuelBeziat/pen/ryhaC), les calculs préalables ou à la volée…
 
 ## Flux
 
@@ -57,7 +57,7 @@ div {
 }
 ```
 
-Si on est sur un projet "*navigateurs modernes*", alors le module **flexbox** résoudra la majorité des problèmes qui nécessitaient auparavant l‘emploi hasardeux de `position: absolute;`.
+Si on est sur un projet "*navigateurs modernes*", alors le module **flexbox** résoudra la majorité des problèmes qui nécessitaient auparavant l’emploi hasardeux de `position: absolute;`.
 
 
 ## Positionnement
@@ -72,16 +72,16 @@ Utiliser les méthodes de positionnement dans cet ordre de préférence :
 
 Dans le meilleur des mondes, chaque type a un rôle bien précise :
 
-* Le layout et les grid sont faits avec le module `grid-layout` (bientôt exploitable, mais pour l‘instant faire avec `flexbox`).
+* Le layout et les grid sont faits avec le module `grid-layout` (bientôt exploitable, mais pour l’instant faire avec `flexbox`).
 * Les mises en page complexe interne (formulaires, boites de même hauteur, etc.) se font avec le module `flexbox`.
 * Les icônes, images et autres petits éléments alignés se font via `display: inline-block;`
-* `float` ne sert qu‘à ce pour quoi il a été conçu : avoir une image "au milieu" du texte
+* `float` ne sert qu’à ce pour quoi il a été conçu : avoir une image "au milieu" du texte
 
 ## Déclarations
 
 ### Déclarations légères
 
-Ne jamais utiliser d‘ID dans le CSS. Les classes et les sélecteurs d’attributs suffisent à couvrir la très large majorité des cas. Et si on doit quand même cibler un ID, utiliser le sélecteur d’attribut :
+Ne jamais utiliser d’ID dans le CSS. Les classes et les sélecteurs d’attributs suffisent à couvrir la très large majorité des cas. Et si on doit quand même cibler un ID, utiliser le sélecteur d’attribut :
 
 ```css
 [id="monId"] {
@@ -91,7 +91,7 @@ Ne jamais utiliser d‘ID dans le CSS. Les classes et les sélecteurs d’attrib
 
 Ceci pour une question de [poids des déclaration](https://www.emmanuelbeziat.com/blog/principes-du-css-poids-des-declarations/).
 
-Des déclarations légères sont la clé d‘un CSS propre, puissant, réutilisable et maintenable. Un "poids" maximum de 20 est une bonne limite, un poids de 10 (une classe ou un sélecteur d‘attributs est une bonne moyenne).
+Des déclarations légères sont la clé d’un CSS propre, puissant, réutilisable et maintenable. Un "poids" maximum de 20 est une bonne limite, un poids de 10 (une classe ou un sélecteur d’attributs est une bonne moyenne).
 
 De la même façon, moins une déclaration est spécifique, plus elle est pratique et facile à surcharger en cas de besoin.
 
@@ -105,11 +105,11 @@ Bien :
 [type="submit"] {}
 ```
 
-Ainsi, je n‘ai pas à me soucier que mon élément soit un `input`, un `button`, ou n‘import quel élément fantaisiste qui ne devrait pas être là.
+Ainsi, je n’ai pas à me soucier que mon élément soit un `input`, un `button`, ou n’import quel élément fantaisiste qui ne devrait pas être là.
 
 ### Déclarations de structure
 
-De manière générale, il faut éviter une déclaration qui serait trop dépendante d‘une structure html rigide (pour la simple et bonne raison que le moindre changement dans le html peut entrainer de gros chamboulements dans le CSS).
+De manière générale, il faut éviter une déclaration qui serait trop dépendante d’une structure html rigide (pour la simple et bonne raison que le moindre changement dans le html peut entrainer de gros chamboulements dans le CSS).
 
 Pas bien :
 ```css

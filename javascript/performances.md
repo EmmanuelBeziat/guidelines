@@ -2,7 +2,7 @@
 
 ## Court-circuiter les blocs au lieu de les imbriquer
 
-Recourir à `return`, `break` ou `continue` pou sauter une partie d‘un code, pour épargner des codes imbriqués inutiles.
+Recourir à `return`, `break` ou `continue` pour sauter une partie d’un code, pour épargner des codes imbriqués inutiles.
 
 Pas bien :
 ```Javascript
@@ -55,9 +55,9 @@ while (items.length > 0) {
 }
 ```
 
-## Utiliser la délégation d‘événements
+## Utiliser la délégation d’événements
 
-Lorsque plusieurs éléments ont le même événement attaché, il est préférable d‘utiliser la délégation d‘événements. Ça consiste à attacher l‘*event handler* sur le plus proche parent des éléments communs, plutôt qu‘à chacun des éléments eux-mêmes.
+Lorsque plusieurs éléments ont le même événement attaché, il est préférable d’utiliser la délégation d’événements. Ça consiste à attacher l’*event handler* sur le plus proche parent des éléments communs, plutôt qu’à chacun des éléments eux-mêmes.
 
 Pas bien :
 ```javascript
@@ -76,7 +76,7 @@ Dans les deux cas avec jQuery, `this` revenrra bien le lien.
 
 ## Ne pas concaténer les chaînes
 
-Souvent en Javascript, il faut construire tout un code html en y insérant plusieurs variables. Quand une chaîne devient un peu trop longue, les performances s‘écroulent. Il est préréfable alors d‘utiliser un *push* sur un *array*.
+Souvent en Javascript, il faut construire tout un code html en y insérant plusieurs variables. Quand une chaîne devient un peu trop longue, les performances s’écroulent. Il est préréfable alors d’utiliser un *push* sur un *array*.
 
 Pas bien :
 ```javascript

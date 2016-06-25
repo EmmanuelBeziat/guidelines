@@ -2,11 +2,11 @@
 
 ## Transitions
 
-Certaines propriétés sont peu gourmandes à animer. C‘est le cas pour `opacity`, `transform`, `color`, `background-color`… D‘autres en revanche, sont plus lourdes et gourmandes en ressourcz, et le calcul de chaque état intermédiaires de la transition est tout aussi lourd à faire. C‘est notamment le cas de toute modification sur le flux (`margin`), ou des propriétés lourdes à calculer de base (`filter`);
+Certaines propriétés sont peu gourmandes à animer. C’est le cas pour `opacity`, `transform`, `color`, `background-color`… D’autres en revanche, sont plus lourdes et gourmandes en ressourcz, et le calcul de chaque état intermédiaires de la transition est tout aussi lourd à faire. C’est notamment le cas de toute modification sur le flux (`margin`), ou des propriétés lourdes à calculer de base (`filter`);
 
-Dans certains cas (par exemple sur mobile, ou sur des configurations trop modestes), ces animations peuvent s‘avérer très lourdes, saccader, voire entrainer un blocage.
+Dans certains cas (par exemple sur mobile, ou sur des configurations trop modestes), ces animations peuvent s’avérer très lourdes, saccader, voire entrainer un blocage.
 
-Pour pallier à ça, si vraiment il est impossible de faire autrement, on peut avoir recours à la propriété `will-change`, qui va permettre de précalculer l‘animation avant qu‘elle ne survienne. **Il est très important de ne pas abuser de cette propriété**.
+Pour pallier à ça, si vraiment il est impossible de faire autrement, on peut avoir recours à la propriété `will-change`, qui va permettre de précalculer l’animation avant qu’elle ne survienne. **Il est très important de ne pas abuser de cette propriété**.
 
 Exemple :
 ```css
@@ -19,9 +19,9 @@ div:hover {
 
 ## @font-face
 
-Il est recommandé de ne pas imposer de chargement aux anciens navigateurs. Privilégiez le woff2 et le woff, et gardez l‘astuce du #iefix. Il est également recommandé d‘éviter le format svg.
+Il est recommandé de ne pas imposer de chargement aux anciens navigateurs. Privilégiez le woff2 et le woff, et gardez l’astuce du #iefix. Il est également recommandé d’éviter le format svg.
 
-Enfin, la valeur `locale` permet de vérifier si une typo est présente sur l‘ordinateur du visiteur, lui épargnant une requête http et un chargement si celle-ci est trouvée.
+Enfin, la valeur `locale` permet de vérifier si une typo est présente sur l’ordinateur du visiteur, lui épargnant une requête http et un chargement si celle-ci est trouvée.
 
 Déclaration optimale :
 ```css
@@ -67,7 +67,7 @@ Bien :
 }
 ```
 
-Ainsi, on n‘a pas à appeler une police spéficique sur un élément juste parce que la graisse change ; juste à utiliser la propriété `font-weight` comme avec n‘importe quelle font dite websafe. Même chose avec l‘italique.
+Ainsi, on n’a pas à appeler une police spéficique sur un élément juste parce que la graisse change ; juste à utiliser la propriété `font-weight` comme avec n’importe quelle font dite websafe. Même chose avec l’italique.
 
 ## Propriétés raccourcies
 
@@ -103,7 +103,7 @@ div {
 
 ## Unités
 
-Les unités doivent (presque) toujours être précisées, afin d‘éviter de gros problèmes d‘interprétation par le navigateur, à l‘exception de `line-height` qui est automatiquement en `em`. L‘unité est inutile si la valeur est 0.
+Les unités doivent (presque) toujours être précisées, afin d’éviter de gros problèmes d’interprétation par le navigateur, à l’exception de `line-height` qui est automatiquement en `em`. L’unité est inutile si la valeur est 0.
 
 Pas bien :
 ```css
@@ -130,6 +130,6 @@ h2 {
 
 Utiliser autoprefixer (via un task-runner), plutôt que de le faire à la main.
 
-Dans l‘éventualité d‘un code à rédiger à la main, il faut vérifier [quelles propriétés ont besoin d‘être préfixées, et avec quels préfixes](https://www.emmanuelbeziat.com/blog/prefixes-css-jusqua-quand/).
+Dans l’éventualité d’un code à rédiger à la main, il faut vérifier [quelles propriétés ont besoin d’être préfixées, et avec quels préfixes](https://www.emmanuelbeziat.com/blog/prefixes-css-jusqua-quand/).
 
 La propriété non-préfixée doit **toujours** se trouver après les versions préfixées.
