@@ -18,6 +18,8 @@ Attention à ne pas faire dans l’excentricité. Certes, aujourd’hui la propr
 
 Vous pouvez bien sûr adapter en fonction de votre cible : pour un site à destination des utilisateurs de Windows Phone (par exemple), ou pour une majorité d’utilisateurs Windows, vous pouvez opter pour **Segoe UI**, qui sera très raccord avec le reste de l’environnement de travail. À l’inverse, pour le site de votre application OSX ou iOS, l’emploi de **Helvetica Neue** sera tout à fait approprié et safe puisque présente sur tous les systèmes Apple (du moins, ceux relativement récents).
 
+Consultez http://www.cssfontstack.com/ pour tout savoir sur les polices système.
+
 Dans tous les cas, pensez à fournir les fichiers des typos que vous utilisez à l’intégrateur.
 
 ## … et ne les modifiez pas !
