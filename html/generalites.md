@@ -1,0 +1,1 @@
+# Guidelines pour HTML — Généralités
