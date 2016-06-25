@@ -34,6 +34,7 @@ Il n’y a pas de honte à demander de l’aide, surtout avant d’attaquer une 
 1. [Généralités](css/generalites.md)
 2. [Bonnes pratiques](css/bonnes-pratiques.md)
 3. [Performances](css/performances.md)
+4. [BEM](css/bem.md)
 
 ## Guidelines pour Javascript
 
