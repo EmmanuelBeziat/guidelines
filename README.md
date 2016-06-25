@@ -5,10 +5,10 @@ Des règles à suivre pour tout projet !
 
 ## Principes généraux
 * Tous les fichiers sont encodés en utf-8 sans BOM.
-* Corriger un fichier ou un bout de code qui ne respecte pas les conventions n‘est **jamais** une perte de temps.
+* Corriger un fichier ou un bout de code qui ne respecte pas les conventions n’est **jamais** une perte de temps.
 * Indentez proprement. Sérieusement.
 * Les commentaires sont importants, mais il faut commenter intelligemment : un commentaire inutile prend de la place pour rien.
-* On se décide pour une langue : on nomme toutes ses variables / classes en **anglais** ou en **français** (et, si possible, les commentaires aussi), et on s‘y tient : on ne jongle pas d‘une langue à l‘autre.
+* On se décide pour une langue : on nomme toutes ses variables / classes en **anglais** ou en **français** (et, si possible, les commentaires aussi), et on s’y tient : on ne jongle pas d’une langue à l’autre.
 * Les TODO sont conseillés, mais il faut les détailler : rien ne dit que c’est vous qui repasserez dessus.
 
 #### KISS: Keep It Simple, Stupid!

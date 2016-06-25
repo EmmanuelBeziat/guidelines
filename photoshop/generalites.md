@@ -1,6 +1,6 @@
 # Guidelines pour Photoshop / Illustrator — Généralités
 
-## Le bord du PSD n‘est pas le bord de l‘écran
+## Le bord du PSD n’est pas le bord de l’écran
 
 Une première erreur très (trop) fréquente : tenir l’espace de travail comme "complet". Une image valant mieux que beaucoup de mots, voilà une illustration du problème :
 
@@ -48,23 +48,23 @@ Pensez à tous les cas de figure !
 
 ## Faites des maquettes "au plus petit"
 
-Un problème très recurrent lorsque l‘on reçoit des maquettes pour plusieurs formats (mobile, tablette, desktop) : aucune intervalle n‘est prévue.
+Un problème très recurrent lorsque l’on reçoit des maquettes pour plusieurs formats (mobile, tablette, desktop) : aucune intervalle n’est prévue.
 
-Typiquement, les maquettes pour tablettes sont toujours prévues en 1024px de large, et tous les éléments sont calés de façon à tenir "pile poil". Donc, si j‘enlève 10px à cette taille, plus rien ne rentre. Alors oui, la majorité des tablettes font au moins 1024px de large. Oui, mais si je mets ma tablette en portrait ? Hé bien tout va se supperposer, se décaler.
+Typiquement, les maquettes pour tablettes sont toujours prévues en 1024px de large, et tous les éléments sont calés de façon à tenir "pile poil". Donc, si j’enlève 10px à cette taille, plus rien ne rentre. Alors oui, la majorité des tablettes font au moins 1024px de large. Oui, mais si je mets ma tablette en portrait ? Hé bien tout va se supperposer, se décaler.
 
-Idem lorsque la maquette desktop est en 1280px (voire parfois en 1600 ou 1920) : qu‘est-ce qu‘il se passe à 1101px si mon navigateur n‘est pas en plein écran ?
+Idem lorsque la maquette desktop est en 1280px (voire parfois en 1600 ou 1920) : qu’est-ce qu’il se passe à 1101px si mon navigateur n’est pas en plein écran ?
 
-> Il est beaucoup plus facile d‘étendre des éléments d‘une page que de les contracter : on évite tous les problèmes de chevauchement
+> Il est beaucoup plus facile d’étendre des éléments d’une page que de les contracter : on évite tous les problèmes de chevauchement
 
 En clair, lorsque vous faites une maquette pour un *breakpoint* particulier, faites-le au plus "étroit" possible. La maquette "mobile" devrait donc faire 320px pour tenir compte des petits smartphones, la maquette pour tablettes 768px (par exemple), et la version desktop 1024px.
 
-Ainsi, on peut prendre la maquette mobile à 320px et étendre ses éléments jusqu'à 767px, puis passer à la version tablette et étendre ses éléments jusqu‘à 1023px, et enfin passer à la version desktop.
+Ainsi, on peut prendre la maquette mobile à 320px et étendre ses éléments jusqu'à 767px, puis passer à la version tablette et étendre ses éléments jusqu’à 1023px, et enfin passer à la version desktop.
 
 ## Ne pas faire de maquette "retina"
 
 Une fausse bonne idée qui revient trop souvent : faire des maquettes pour mobile à 640px (le double de 320px) en se disant que ça permet de prendre en compte le retina (densité de pixels x2 sur les iPhones, et équivalents chez Androïd).
 
-Le problème en faisant ça, c'est que la taille native de l'iPhone reste toujours 320px, et que toutes les tailles sont calculées à partir de là. Donc dans votre maquette, vous aurez des titres en 64px parce que vous imaginez que ça deviendra du 32px dans votre iPhone car tout sera divisé par deux ; sauf que non. La typo fera quand même 64px sur votre mobile. Le téléphone va faire lui-même les opérations nécessaires pour doubler sa densité de pixels, elle n'est pas à prévoir en amont, à l‘exception des images.
+Le problème en faisant ça, c'est que la taille native de l'iPhone reste toujours 320px, et que toutes les tailles sont calculées à partir de là. Donc dans votre maquette, vous aurez des titres en 64px parce que vous imaginez que ça deviendra du 32px dans votre iPhone car tout sera divisé par deux ; sauf que non. La typo fera quand même 64px sur votre mobile. Le téléphone va faire lui-même les opérations nécessaires pour doubler sa densité de pixels, elle n'est pas à prévoir en amont, à l’exception des images.
 
 Du reste, le fonctionnement du rétina est beaucoup plus complexe que juste "tout multiplier par deux". Lire cet excellent article de Matthieu Lechat : [pixel CSS et pixel physique](https://www.matthecat.com/pixel-css-et-pixel-physique/)
 
