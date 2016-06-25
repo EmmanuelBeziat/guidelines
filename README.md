@@ -44,7 +44,7 @@ Il n’y a pas de honte à demander de l’aide, surtout avant d’attaquer une 
 ## Guidelines pour Photoshop / Illustrator
 
 1. [Généralités](photoshop/generalites.md)
-2. [Bonnes pratiques](photoshop/bonnes-pratiques.md)
+2. [Polices & typos](photoshop/polices.md)
 
 ## Guidelines pour de bons échanges client / prestataire
 
