@@ -186,3 +186,7 @@ li:not(:first-child) {
 	display: none;
 }
 ```
+
+## Couleurs
+
+Pour utiliser de la transparence, utiliser le format rgba. Sinon, toujours utiliser le format hexadécimal.
