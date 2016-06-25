@@ -1,3 +1,3 @@
 # Guidelines pour HTML
 
-1. [Génératlités](generalites.md)
+1. [Généralités](generalites.md)

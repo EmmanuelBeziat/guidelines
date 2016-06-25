@@ -3,7 +3,7 @@ Des règles à suivre pour tout projet !
 
 ## Guidelines pour HTML
 
-1. [Génératlités](html/generalites.md)
+1. [Généralités](html/generalites.md)
 
 ## Guidelines pour CSS (et préprocesseurs)
 
