@@ -2,7 +2,7 @@
 
 ### === au lieu de ==
 
-Javascript est un langage qui comporte quelques lacunes, et il convient d‘être strict à sa place.
+Javascript est un langage qui comporte quelques faiblesses, et il convient d‘être strict à sa place.
 
 Par exemple, si on lui donne un entier et qu‘on vérifie une chaîne de caractère, il n‘y verra aucun problème :
 
@@ -33,7 +33,9 @@ null == undefined   // true
 ' \t\r\n ' == 0     // true
 ```
 
-En revanche, il peut parfois s‘avérer utile d‘exploiter cette faiblesse :
+Ce qu‘il se passe en réalité, c‘est que lorsque deux types ne correspondent pas, le Javascript va tenter de convertir les valeurs (ce qui est plus lent à l‘exécution). Mais c‘est très hasardeux dès qu‘on traite des données utilisateur.
+
+En revanche, il peut parfois s‘avérer utile d‘exploiter ce point :
 
 Pas bien :
 ```javascript
