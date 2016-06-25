@@ -35,3 +35,7 @@ Quelques autres exemples :
 * Penser à préciser les liens, et les textes qui vont avec lesdits liens.
 * Lorsqu‘on fait référence à un point d‘une spec, citer directement le point en question : c‘est beaucoup plus rapide que de fouiller ladite spec à la recherche de la bonne ligne (surtout si elle est très dense).
 * En cas de changement dans le texte, donner l‘intégralité du nouveau texte plutôt que des changements à divers endroits : ça limite fortement le risque d‘oublis et de ratés.
+
+## Bien labeller ses tickets
+
+Une bonne team (et un bon gestionnaire de tickets) doit mettre à disposition un ensemble de labels à appliquer sur les différents tickets ; servez-vous en intelligemment ! Mettre un label `urgent` sur 31 tickets retire tout le principe de l‘urgence. En tant qu‘équipe, définissez des tickets cohérents. En tant que client, étudiez-bien la liste des labels disponibles avec l‘équipe.
