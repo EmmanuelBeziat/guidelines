@@ -1,4 +1,4 @@
-# guidelines
+# Guidelines
 Des règles à suivre pour tout projet !
 
 ## Guidelines pour HTML
@@ -18,4 +18,4 @@ Des règles à suivre pour tout projet !
 3. [Performances](javascript/performances.md)
 
 ## Crédits
-Ces règles ont été fortement inspirées du travail de Raphaël Goetter, …
+Ces règles ont été fortement inspirées du travail de Raphaël Goetter, Christophe Porteneuve, …
