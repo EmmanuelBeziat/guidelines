@@ -35,6 +35,7 @@ Il n’y a pas de honte à demander de l’aide, surtout avant d’attaquer une 
 2. [Bonnes pratiques](css/bonnes-pratiques.md)
 3. [Performances](css/performances.md)
 4. [BEM](css/bem.md)
+5. [Préprocesseurs](css/preprocesseurs.md)
 
 ## Guidelines pour Javascript
 

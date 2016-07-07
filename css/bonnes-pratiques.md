@@ -190,3 +190,12 @@ li:not(:first-child) {
 ## Couleurs
 
 Pour utiliser de la transparence, utiliser le format rgba. Sinon, toujours utiliser le format hexadécimal.
+
+## Unités
+
+Les différentes unités disponibles en CSS devraient être exploitées. Les pourcentages et les pixels ne sont pas les seules unités existantes, et sont loin d’être les meilleures.
+
+* Toute taille de texte devrait être en `rem` ou `em`
+* Tout élément lié à la taille d’un texte (comme un bouton) devrait avoir des valeurs en `em` qui lui sont affectées. Ainsi, la modification de la taille du texte entraine la modification proportionnelle de l’élément lui-même, sans devoir toucher au code
+* De manière générale, les `rem` sont plus pratiques que les `px`, et permettent l’adataption d’un design beaucoup plus simplement, fournissant une meilleure accessibilité
+* Plutôt que d’utiliser des hacks pour avoir des éléments de la hauteur / largeur du *viewport*, utiliser `vh` et `vw` s’avèrera beaucoup plus simple et efficace.
