@@ -33,3 +33,79 @@ font-brand()
 	font-familiy "Segoe UI", arial, sans-serif
 	font-weight 700
 ```
+
+### Generic
+
+Spécificité la plus basse possibile (normalize, resets, etc.).
+
+```css
+* {
+	box-sizing: border-box;
+}
+```
+
+### Base
+
+Éléments html sans classes (liens, titres, etc.). C’est la dernière couche dans laquelle on placera des sélecteurs de type (`a {}`, `blockquote {}`, etc.)
+
+```css
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: square outside;
+}
+```
+
+### Objects
+
+_design pattern_, sans cosmétique. Composé uniquement de classes, nommés de façon agnostique (`.ui-list {}`).
+
+```css
+.ui-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.ui-list__item {
+	padding: 10px;
+}
+```
+
+### Components
+
+Éléments de design, toujours uniquement composés de classes. Nommage plus spécifique (`.product-list {}`).
+
+```css
+.products-list {
+	font-size: 1.25rem;
+	border-top: 1px solid #fa0000;
+}
+
+.products-list__item {
+	border-bottom: 1px solid #fa0000;
+}
+```
+
+### Trumps
+
+Éléments utilitaires, qui n’affectent qu’un seul élément du DOM à la fois. On l’utilisera généralement pour les classes "helpers".
+
+```css
+.sr-only {
+	width: 1px !important;
+	height: 1px !important;
+	position: absolute !important;
+	opacity: 0 !important;
+	visibility: hidden !important;
+}
+```
+
+## Spécificité
+
+La spécificité augmente petit à petit à mesure qu’on descend dans les couches, en affectant des parties du DOM de plus en plus petites. On ajoute progressivement des styles, on évite d’en retirer.
+
+En clair, ITCSS permet de garder un contrôle sur la cascade et l’héritage. Il permet à chacun de savoir où se trouvent les éléments, et réduit le gâchis et la redondance. De fait, il augmente aussi le potentiel de réutilisation, de modularité, et d’amélioration (_scalability_).
+
