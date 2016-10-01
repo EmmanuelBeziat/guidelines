@@ -4,5 +4,5 @@
 2. [Bonnes pratiques](bonnes-pratiques.md)
 3. [Performances](performances.md)
 4. [BEM](bem.md)
-5. [ITCC](itcc.md)
+5. [ITCSS](itcss.md)
 6. [Préprocesseurs](preprocesseurs.md)

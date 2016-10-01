@@ -1,4 +1,4 @@
-# Guidelines pour CSS — ITCC (Block, Element, Modifier)
+# Guidelines pour CSS — ITCSS (Block, Element, Modifier)
 
 ITCC est une méthodologie de gestion de projets (à l’échelle du CSS). Dans le [chapitre sur BEM](bem.md), un certain nombre de points concernant les problèmes inhérents à la structure même du CSS étaient mis en avant, et BEM y est présenté comme une méthodologie permettant d’y répondre éfficacement. ITCSS est une méthodologie permettant d’organiser son CSS efficacement, à l’échelle de tout un projet, et se combine parfaitement avec BEM et les préprocesseurs.
 
