@@ -5,7 +5,7 @@
 Une première erreur très (trop) fréquente : tenir l’espace de travail comme "complet". Une image valant mieux que beaucoup de mots, voilà une illustration du problème :
 
 ![](https://images.emmanuelbeziat.com/photoshop-problem-1.jpg)
-*
+
 Le design est ici bien rendu, somme toute classique, et l’image sort de façon élégante du cadre du site pour aller rejoindre les bords. Oui, mais **les bords en question ne représentent pas l’écran d’un visiteur** potentiel du site. Ainsi, si on agrandi l’espace de travail pour se représenter la taille d’écran d’un visiteur du site, on se retrouve avec un problème graphique assez évident :
 
 ![](https://images.emmanuelbeziat.com/photoshop-problem-02.jpg)
