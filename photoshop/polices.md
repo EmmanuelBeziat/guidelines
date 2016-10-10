@@ -6,7 +6,7 @@ Un autre point essentiel : photoshop permet une gestion avancée des textes. On 
 
 De même, je vois souvent des blocs de texte prévus dans les maquettes pour avoir un certain nombre de lignes, comme dans cet exemple :
 
-![](https://www.emmanuelbeziat.com/wp-content/uploads/2015/01/photoshop-problem-3.png)
+![](https://images.emmanuelbeziat.com/photoshop-problem-3.png)
 
 Le soucis, c'est qu'il est impossible d’être sûr à 100% que le texte sera affiché tel quel sur le site. Il se peut très bien qu'il dépasse, et donc que tout le principe de ce bout de design se retrouve par terre.
 
