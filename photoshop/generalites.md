@@ -4,11 +4,11 @@
 
 Une première erreur très (trop) fréquente : tenir l’espace de travail comme "complet". Une image valant mieux que beaucoup de mots, voilà une illustration du problème :
 
-![](https://www.emmanuelbeziat.com/wp-content/uploads/2015/01/photoshop-problem-1.jpg)
-*
+![](https://images.emmanuelbeziat.com/photoshop-problem-1.jpg)
+
 Le design est ici bien rendu, somme toute classique, et l’image sort de façon élégante du cadre du site pour aller rejoindre les bords. Oui, mais **les bords en question ne représentent pas l’écran d’un visiteur** potentiel du site. Ainsi, si on agrandi l’espace de travail pour se représenter la taille d’écran d’un visiteur du site, on se retrouve avec un problème graphique assez évident :
 
-![](https://www.emmanuelbeziat.com/wp-content/uploads/2015/01/photoshop-problem-02.jpg)
+![](https://images.emmanuelbeziat.com/photoshop-problem-02.jpg)
 
 L’image ne va plus jusqu'au bord. Outre le fait que ce soit très moche, le site perd toute sa consistance. Il n’y a aucun moyen de gérer ça proprement côté intégration : étirer l’image serait de toutes façons totalement affreux.
 
@@ -26,7 +26,7 @@ Avec le CSS3 est arrivé un super outil : la propriété `border-radius`. Bien q
 
 Cependant, une exception à cette règle concerne les ronds parfaits contenant du texte. En effet, si un bouton rond contenant un picto (Comme l’icone de twitter) ne pose à priori aucun problème à l’intégrateur, la question d’un disque contenant du texte est beaucoup plus délicate.
 
-![](https://www.emmanuelbeziat.com/wp-content/uploads/2015/01/photoshop-problem-4.png)
+![](https://images.emmanuelbeziat.com/photoshop-problem-4.png)
 
 Pour les raisons précédemment citées, la gestion du texte dans une page web est délicate. Or, la rondeur de cet élément repose sur la taille fixe de celui-ci (sinon, ça devient un ovale), car les dimensions d’un conteneur dépendent de son contenu. Il devient de facto très pénible d’obtenir le rendu souhaité en CSS pur, il faut donc ruser et adapter le texte à son conteneur — ce qui pose là encore certains soucis en CSS.
 
@@ -80,7 +80,7 @@ Demandez à votre intégrateur-trice ce qu'il-elle utilise généralement, vous 
 
 Photoshop propose différents modes de fonctionnement des calques entre eux :
 
-![](https://www.emmanuelbeziat.com/wp-content/uploads/2015/09/modes-de-fusion.jpg)
+![](https://images.emmanuelbeziat.com/modes-de-fusion.jpg)
 
 Vous voyez de quoi je parle ? C'est un outil très cool, pour faire plein d’effets sympatoches. Hé bien **vous n’y touchez pas** ! Il est strictement impossible de reproduire ces effets en web. Alors n’en faites rien, sauf si vous pouvez aplatir le résultat final (et dans le doute, demandez, encore une fois).
 

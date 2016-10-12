@@ -21,6 +21,7 @@ BEM est une syntaxe CSS conçue pour résoudre tous les problèmes de maintenabi
 
 Si maintenant quelqu’un apporte une modification :
 
+```css
 .item {
 	display: block;
 	color: green;
@@ -208,7 +209,7 @@ Ou encore :
 <div class="article__title">
 ```
 
-``css
+```css
 .article__title {
 	font-size: 2em;
 }
