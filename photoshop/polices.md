@@ -1,4 +1,4 @@
-# Guidelines pour Photoshop — Les polices
+ Guidelines pour Photoshop — Les polices
 
 ## Le texte n’est pas contrôlable
 
