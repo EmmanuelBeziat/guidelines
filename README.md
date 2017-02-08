@@ -37,6 +37,7 @@ Il n’y a pas de honte à demander de l’aide, surtout avant d’attaquer une 
 4. [BEM](css/bem.md)
 5. [ITCSS](css/itcss.md)
 6. [Préprocesseurs](css/preprocesseurs.md)
+7. [Nomenclatures](css/nomenclatures.md)
 
 ## Guidelines pour Javascript
 
