@@ -1,4 +1,4 @@
- Guidelines pour Photoshop — Les polices
+# Guidelines pour Photoshop — Les polices
 
 ## Le texte n’est pas contrôlable
 
@@ -40,8 +40,7 @@ Il se peut que l’intégrateur-trice doive copier-coller les textes que vous au
 
 ## Utilisez des font-icons
 
-Plutôt que de piocher des images sur [iconfinder](http://www.iconfinder.com) (au demeurant très bon), **pourquoi ne pas utiliser une font-icon
-** ? En fonction des besoins, [FontAwesome](http://fontawesome.io/) ou [Genericons](https://genericons.com/) sont de très bons choix. Pour être encore plus spécifique, vous pouvez faire les votre sur des sites comme [Fontello](http://fontello.com/) (auquel cas, pensez à fournir les typos et le CSS générés !).
+Plutôt que de piocher des images sur [iconfinder](http://www.iconfinder.com) (au demeurant très bon), **pourquoi ne pas utiliser une font-icon** ? En fonction des besoins, [FontAwesome](http://fontawesome.io/) ou [Genericons](https://genericons.com/) sont de très bons choix. Pour être encore plus spécifique, vous pouvez faire les votre sur des sites comme [Fontello](http://fontello.com/) (auquel cas, pensez à fournir les typos et le CSS générés !).
 
 D’abord, ça évitera à l’intégrateur-trice de devoir enregistrer chaque icône manuellement, devoir faire des sprites, et parfois utiliser des ruses de sioux pour des états différents (survol). Ensuite, ça évitera beaucoup de complications pour la gestion des différents supports, et des écrans (Par exemple, les fameux écrans Retina et leurs pendants chez la concurrence).
 
