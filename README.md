@@ -59,4 +59,4 @@ Il n’y a pas de honte à demander de l’aide, surtout avant d’attaquer une 
 ## Crédits
 Ces règles ont été fortement inspirées du travail de Raphaël Goetter, Pierre-Antoine Delnatte, Christophe Porteneuve, …
 
-test
+Ok
