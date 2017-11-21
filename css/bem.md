@@ -293,7 +293,7 @@ De fait, je peux modifier complètement la structure de ce html, en déplaçant 
 
 Il n’y a aucun problème non plus à exploiter des classes BEM provenant d’un autre composant.
 
-```css
+```html
 <div class="card">
     <div class="card__header">
         <h2 class="card__title">Title text here</h2>
