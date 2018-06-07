@@ -116,7 +116,6 @@ h2 {
 ```
 
 Bien:
-Pas bien :
 ```css
 h2 {
 	margin: 0;
