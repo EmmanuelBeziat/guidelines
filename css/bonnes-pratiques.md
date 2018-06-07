@@ -5,7 +5,9 @@
 Si le projet permet de coder pour Internet Explorer 8 *a minima*, exploiter le modèle de boite `border-box` en ajoutant ceci au début du fichier CSS :
 
 ```css
-* {
+*,
+*::before,
+*::after {
 	box-sizing: inherit;
 }
 
@@ -57,7 +59,7 @@ div {
 }
 ```
 
-Si on est sur un projet "*navigateurs modernes*", alors le module **flexbox** résoudra la majorité des problèmes qui nécessitaient auparavant l’emploi hasardeux de `position: absolute;`.
+Si on est sur un projet "*navigateurs modernes*", alors le module [**flexbox**](https://developer.mozilla.org/fr/docs/Web/CSS/Disposition_flexbox_CSS/Utilisation_des_flexbox_en_CSS) résoudra la majorité des problèmes qui nécessitaient auparavant l’emploi hasardeux de `position: absolute;`.
 
 
 ## Positionnement
@@ -65,14 +67,14 @@ Si on est sur un projet "*navigateurs modernes*", alors le module **flexbox** r�
 Utiliser les méthodes de positionnement dans cet ordre de préférence :
 
 1. `display: block | inline;`
-2. `display: flex | inline-flex;`
+2. `display: flex | inline-flex;` / `display: grid;`
 3. `display: inline-block | table-cell;`
 4. `float: left | right;`
 5. `position: relative | absolute | sticky | fixed;`
 
 Dans le meilleur des mondes, chaque type a un rôle bien précise :
 
-* Le layout et les grid sont faits avec le module `grid-layout` (bientôt exploitable, mais pour l’instant faire avec `flexbox`).
+* Le layout et les grid sont faits avec le module `grid-layout` ([doc](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Grid_Layout)).
 * Les mises en page complexe interne (formulaires, boites de même hauteur, etc.) se font avec le module `flexbox`.
 * Les icônes, images et autres petits éléments alignés se font via `display: inline-block;`
 * `float` ne sert qu’à ce pour quoi il a été conçu : avoir une image "au milieu" du texte
