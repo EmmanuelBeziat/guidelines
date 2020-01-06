@@ -189,10 +189,6 @@ li:not(:first-child) {
 }
 ```
 
-## Couleurs
-
-Pour utiliser de la transparence, utiliser le format rgba. Sinon, toujours utiliser le format hexadécimal.
-
 ## Unités
 
 Les différentes unités disponibles en CSS devraient être exploitées. Les pourcentages et les pixels ne sont pas les seules unités existantes, et sont loin d’être les meilleures.
